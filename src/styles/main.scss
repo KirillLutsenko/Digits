@@ -1,7 +1,30 @@
-@import "utils";
-@import "fonts";
-@import "typography";
+@import "./reset.scss";
+@import "./page.scss";
+
+html {
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  color: #3b3b3b;
+}
 
 body {
-  background: $c-gray;
+  min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  line-height: 1.5;
+}
+
+ul,
+li {
+  list-style: none;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
 }
