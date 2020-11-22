@@ -1,0 +1,16 @@
+.callback {
+  color: #fff;
+  font-family: inherit;
+  font-weight: 400;
+  font-size: 12px;
+  transition: background-color 0.2s ease-in-out;
+  padding: 14.5px 45px;
+
+  &:hover {
+    background-color: #db7200;
+  }
+
+  &__text {
+    margin-left: 10px;
+  }
+}

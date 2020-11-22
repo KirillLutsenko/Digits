@@ -1,5 +1,21 @@
 @import "./reset.scss";
 @import "./page.scss";
+@import "./blocks/header/header.scss";
+@import "./blocks/header/top/nav.scss";
+@import "./blocks/header/top/link-login.scss";
+@import "./blocks/header/info/info.scss";
+@import "./blocks/header/info/phones.scss";
+@import "./blocks/header/info/callback.scss";
+@import "./blocks/utils/vars.scss";
+@import "./blocks/header/info/sidebar.scss";
+@import "./blocks/header/info/sidebar/compare.scss";
+@import "./blocks/header/info/sidebar/favorites.scss";
+@import "./blocks/header/info/sidebar/basket.scss";
+@import "./blocks/main-navigation/main-nav.scss";
+@import "./blocks/main-navigation/menu/menu.scss";
+@import "./blocks/main-navigation/menu/burger.scss";
+@import "./blocks/main-navigation/menu/link.scss";
+@import "./blocks/main-navigation/search-bar/search-bar.scss";
 
 html {
   scroll-behavior: smooth;
@@ -12,10 +28,8 @@ html {
 
 body {
   min-height: 100vh;
-  margin: 0;
   padding: 0;
   background: #fff;
-  line-height: 1.5;
 }
 
 ul,
@@ -27,4 +41,5 @@ li {
 a {
   text-decoration: none;
   color: inherit;
+  text-transform: uppercase;
 }

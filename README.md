@@ -1,35 +1,27 @@
-# Digits landing page
-Implement landing page according to [Figma design](https://www.figma.com/file/yM9iS3NKeGOII5Bl7LOooG/Digits-Demo-%26-Preview-(Copy)?node-id=0%3A1) - Use BEM and SCSS
-- Large screens 2560px
-- Full HD 1920px
-- The design 1600px
-- Notebook 1280px
-- Tablet 1024
-- Mobile (> 320px)
+[DEMO LINK](https://KirillLutsenko.github.io/Digits/)
 
-1. Implement the header with `nav`.
-1. Implement `Good design meets great user experience` block.
-1. Implement `Whatever work you do, we're able to help` block with reused 3 cards.
-1. Implement `Simplicity meets innovative design` block.
-1. Implement `What others are saying` block.
-1. Implement `Ready to launch  your next website?` block.
-1. Implement footer with `Pages`, `Demos`, `Resources`.
+### Техническое задание
+1. В проекте присутствуют два попапа (`Вход` и `Заказ обратного звонка`).
+   Данные попап окна вызывают соответствующие кнопки `Вход` и `Перезвонить мне`
+2. `Все категории`, `Select 1, Select 2` и т.д. кастомные select.
+3. Все формы должны иметь клиентскую JS валидацию:
+   * `Ваш email` - проверка на корректный email.
+   * `Пароль` - минимум 4 символа.
+   * `Поиск по сайту` - минимум 2 символа.
+   * `Цена` - валидация на положительные цифры.
+4. `Номер телефона` - ввод цифр по маске.
+5. При клике на кнопку `Очистить фильтр` - все значения input && select - должны сброситься в дефолтное состояние.
+6. После успешной валидации поля `Укажите свой email для подписки` - должен появиться попап с текстом "Вы успешно подписаны на рассылку".
+8. При клике на кнопки `Сравнить товар` и `В избранное` сменить текст кнопок `В сравнении` и `В избранном` соответственно + инкрементировать количество добавленных в блоках `Сравнение` и `Избранное`, в шапке страницы.
+7. Используется кастомный шрифт Roboto доступен в Google Fonts - [Roboto](https://fonts.google.com/specimen/Roboto).
 
-## Instructions
-1. **Fork** the repo.
-2. **Clone** the forked one. (The project link should have your name but not `mate-academy`)
-3. Run `npm install` (or just `npm i`).
-4. Run `npm start`.
-5. Open one more terminal window for the next steps.
-6. `git checkout -b develop` - to create new branch and switch on it.
-7. Write you code in `src` folder.
-8. Run `npm run lint` and fix code style errors.
-9. Run `npm run deploy` to deploy your solution to `gh-pages`.
-10. `git add . && git commit -m 'solution'` to save your changes.
-11. `git push origin develop` - to send you code for PR.
-12. Create a Pull Request (PR) from your branch `develop` to branch `master` of original repo.
-13. Replace `<your_account>` with your Github username in the
-  [DEMO LINK](https://<your_account>.github.io/Digits/).
-14. Copy `DEMO LINK` to the PR description.
-
-> To update you PR repeat steps 7-11.
+### Требования
+* Написание JS с использованием стандарта ES6;
+* Без использования CSS фреймворков (Bootstrap, Foundation etc.);
+* RWD;
+* Верстка приближенная к Pixel Perfect;
+* Кроссбраузерная верстка (`Chrome latest`, `Firefox latest`, `Safari 10+`, `Edge 15+`);
+* Верстка по сетке;
+* Отсутствие средств отладки кода `console.log`, `alert`, `debugger`;
+* Отсутствие закомментированных частей кода;
+* Отсутствие не используемых функций, переменных и методов;

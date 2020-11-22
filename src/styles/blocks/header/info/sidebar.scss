@@ -1,0 +1,28 @@
+.sidebar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  &__favorites {
+    padding: 5px 25px;
+    font-size: 10px;
+    font-family: inherit;
+    font-weight: 400;
+    border-right: 2px solid #e4e4e4;
+    border-left: 2px solid #e4e4e4;
+  }
+
+  &__compare {
+    padding: 5px 25px;
+    font-size: 10px;
+    font-family: inherit;
+    font-weight: 400;
+  }
+
+  &__basket {
+    padding: 5px 25px;
+    font-size: 10px;
+    font-family: inherit;
+    font-weight: 400;
+  }
+}

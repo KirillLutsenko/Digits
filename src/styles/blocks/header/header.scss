@@ -1,0 +1,15 @@
+.header {
+  &__top {
+    background-color: #696969;
+
+    @media (min-width: 1920px) {
+      padding: 0 calc(50% - 960px);
+    }
+  }
+
+  &__main {
+    @media (min-width: 1920px) {
+      padding: 0 calc(50% - 960px);
+    }
+  }
+}
