@@ -2,10 +2,11 @@
   background-color: #db7200;
   height: 55px;
   width: 55px;
-  transition: background-color 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
 
   &:hover {
-    background-color: #ff9c00;
+    box-shadow: 0 4px 6px rgba(94, 54, 2, 0.52),
+      0 0.5px 3px rgba(199, 126, 17, 0.48);
   }
 
   &__img {

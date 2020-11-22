@@ -62,10 +62,11 @@
     font-family: inherit;
     color: #fff;
     background-color: #ff8900;
-    transition: background-color 0.2s ease-in-out;
+    transition: box-shadow 0.2s ease-in-out;
 
     &:hover {
-      background-color: #db7200;
+      box-shadow: 0 4px 6px rgba(94, 54, 2, 0.52),
+        0 0.5px 3px rgba(199, 126, 17, 0.48);
     }
   }
 }

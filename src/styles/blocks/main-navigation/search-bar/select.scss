@@ -1,0 +1,40 @@
+.select {
+  width: 165px;
+  position: relative;
+
+  &:after {
+    content: "";
+    display: block;
+    border-style: solid;
+    border-width: 6px 5px 0;
+    border-color: #8c8c8c transparent transparent;
+    pointer-events: none;
+    position: absolute;
+    top: 50%;
+    right: 40px;
+    z-index: 1;
+    margin: -0.5px;
+  }
+}
+
+.select select {
+  display: block;
+  width: 100%;
+  padding: 20px 10px 18px 15px;
+  background: #f5f5f5;
+  cursor: pointer;
+  color: #616161;
+  border: none;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  font-family: inherit;
+  font-size: 14px;
+  font-weight: 400;
+  transition: background-color 0.2s ease-in-out;
+
+  &:hover,
+  &:focus {
+    background-color: #ebe9e9;
+  }
+}

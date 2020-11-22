@@ -3,11 +3,12 @@
   font-family: inherit;
   font-weight: 400;
   font-size: 12px;
-  transition: background-color 0.2s ease-in-out;
+  transition: box-shadow 0.2s ease-in-out;
   padding: 14.5px 45px;
 
   &:hover {
-    background-color: #db7200;
+    box-shadow: 0 4px 6px rgba(94, 54, 2, 0.52),
+      0 0.5px 3px rgba(199, 126, 17, 0.48);
   }
 
   &__text {
